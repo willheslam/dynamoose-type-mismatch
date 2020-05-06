@@ -1,0 +1,17 @@
+{
+  "name": "recreate-dynamoose-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "AWS_REGION=eu-west-1 node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dynamodb-local": "0.0.31",
+    "dynamoose": "^2.1.2",
+    "fkill": "^7.0.1"
+  }
+}
